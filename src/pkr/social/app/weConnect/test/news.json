@@ -1,0 +1,225 @@
+{
+	"status": "ok",
+	"totalResults": 20,
+	"articles": [{
+		"source": {
+			"id": "the-washington-post",
+			"name": "The Washington Post"
+		},
+		"author": null,
+		"title": "Trump renews attacks on 'fake, fake disgusting news'",
+		"description": "President Donald Trump is renewing his campaign against the media, claiming at a Pennsylvania rally that the media is the “fake, fake disgusting news” and casting journalists as his true political opponent.",
+		"url": "https://www.washingtonpost.com/national/trump-trashes-media-as-fake-fake-disgusting-news-at-rally/2018/08/02/4e9602f4-96b2-11e8-818b-e9b7348cd87d_story.html",
+		"urlToImage": "https://www.washingtonpost.com/resizer/2CjPNwqvXHPS_2RpuRTKY-p3eVo=/1484x0/www.washingtonpost.com/pb/resources/img/twp-social-share.png",
+		"publishedAt": "2018-08-03T04:07:30Z"
+	}, {
+		"source": {
+			"id": null,
+			"name": "Express.co.uk"
+		},
+		"author": "Caitlin Doherty",
+		"title": "BREAKING: Emergency EVACUATIONS amid DAM BURST fears in Lynchburg, Virginia",
+		"description": "RESIDENTS are being evacuated amid fears of a dam bursting in Virginia, USA.",
+		"url": "https://www.express.co.uk/news/world/998281/lynchburg-college-lake-dam-burst-flood-emergency-evacuation-virginia",
+		"urlToImage": "https://cdn.images.express.co.uk/img/dynamic/78/750x445/998281.jpg",
+		"publishedAt": "2018-08-03T03:59:55Z"
+	}, {
+		"source": {
+			"id": "usa-today",
+			"name": "USA Today"
+		},
+		"author": "Christal Hayes",
+		"title": "'Completely tragic': Mother charged with murder after tossing 4-year-old daughter into Florida river, cops say",
+		"description": "A woman has been charged with murder after police say she tossed her four-year-old daughter into a Tampa, Florida river on Thursday.",
+		"url": "https://www.usatoday.com/story/news/2018/08/02/mother-tossed-4-year-old-daughter-into-florida-river-tampa-police-say/895341002/",
+		"urlToImage": "https://www.gannett-cdn.com/-mm-/33f20b50fe6ccbed1d54a5ad27287d24bdb20ef6/c=0-160-384-377/local/-/media/2018/08/02/USATODAY/USATODAY/636688464476188100-tampa.jpg?width=3200&height=1680&fit=crop",
+		"publishedAt": "2018-08-03T02:52:00Z"
+	}, {
+		"source": {
+			"id": "the-new-york-times",
+			"name": "The New York Times"
+		},
+		"author": "https://www.nytimes.com/by/jacey-fortin",
+		"title": "Top New Hampshire Democrat Arrested on Domestic Violence Charges",
+		"description": "Colleagues on both sides of the aisle have called for Jeff Woodburn, the State Senate minority leader who is up for re-election, to resign.",
+		"url": "https://www.nytimes.com/2018/08/02/us/new-hampshire-jeff-woodburn-arrest-abuse.html",
+		"urlToImage": "https://static01.nyt.com/images/2018/08/03/us/03xp-woodburn/03xp-woodburn-facebookJumbo.jpg",
+		"publishedAt": "2018-08-03T02:19:07Z"
+	}, {
+		"source": {
+			"id": "usa-today",
+			"name": "USA Today"
+		},
+		"author": "Aamer Madhani, Scott Gleeson",
+		"title": "Chicago activists shutdown Lake Shore Drive, speak out against gun violence at Wrigley",
+		"description": "Protesters marched on the Windy City’s iconic Lake Shore Drive Thursday to express outrage over Chicago’s endemic gun violence and call for the resignation of Mayor Rahm Emanuel.",
+		"url": "https://www.usatoday.com/story/news/2018/08/02/chicago-protest-rahm-emanuel-wrigley-field-lake-shore-drive/890869002/",
+		"urlToImage": "https://www.gannett-cdn.com/-mm-/e89891738c31b91f5a58737da52b68465335b871/c=0-207-2996-1900/local/-/media/2018/08/02/USATODAY/USATODAY/636688410187043660-wrigley-protest.JPG?width=3200&height=1680&fit=crop",
+		"publishedAt": "2018-08-03T01:27:07Z"
+	}, {
+		"source": {
+			"id": "the-new-york-times",
+			"name": "The New York Times"
+		},
+		"author": "http://www.nytimes.com/by/michael-d-shear, http://www.nytimes.com/by/michael-wines",
+		"title": "Russian Threat 'Is Real,' Trump Officials Say, Vowing to Protect US Elections",
+		"description": "The leaders of the national security agencies promised to help state and local governments counter what they called Russia’s efforts to influence the elections.",
+		"url": "https://www.nytimes.com/2018/08/02/us/politics/russia-election-security-midterm.html",
+		"urlToImage": "https://static01.nyt.com/images/2018/08/03/us/politics/03dc-election-1/03dc-election-1-facebookJumbo-v2.jpg",
+		"publishedAt": "2018-08-02T23:59:15Z"
+	}, {
+		"source": {
+			"id": "the-washington-post",
+			"name": "The Washington Post"
+		},
+		"author": null,
+		"title": "US hopes to resume joint field operations with North Korea to find war remains",
+		"description": "Military lab is beginning analysis of Korean War remains handed over in 55 boxes this week.",
+		"url": "https://www.washingtonpost.com/world/national-security/us-hopes-to-resume-joint-field-operations-with-north-korea-to-find-war-remains/2018/08/02/071b1482-968f-11e8-8ffb-5de6d5e49ada_story.html",
+		"urlToImage": "https://www.washingtonpost.com/resizer/QBc3f7hYqypZ4dn8nO9sQDEl5MU=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/X2YFT5UWJQI6RJTZWCJBF63JYI.jpg",
+		"publishedAt": "2018-08-02T23:30:05Z"
+	}, {
+		"source": {
+			"id": "fox-news",
+			"name": "Fox News"
+		},
+		"author": "Cristina Corbin",
+		"title": "Mollie Tibbetts search team scours land near Iowa pig farm",
+		"description": "Search teams on Thursday afternoon were combing through ditches near a pig farm that federal agents searched almost a week ago in the hunt for missing college student Mollie Tibbetts, after a possible clue to her disappearance -- a red shirt -- reportedly was…",
+		"url": "http://www.foxnews.com/us/2018/08/02/mollie-tibbetts-search-team-scours-land-near-iowa-pig-farm.html",
+		"urlToImage": "http://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2018/08/03/0/0/694940094001_5817314442001_5817314119001-vs.jpg?ve=1",
+		"publishedAt": "2018-08-02T23:29:38Z"
+	}, {
+		"source": {
+			"id": "usa-today",
+			"name": "USA Today"
+		},
+		"author": "Alan Gomez",
+		"title": "Trump administration says ACLU — not government — should find deported parents",
+		"description": "The Trump administration is under a court order to reunite more than 2,500 children separated from their parents at the border, but Justice lawyers say advocacy groups should be responsible for finding parents who were deported.",
+		"url": "https://www.usatoday.com/story/news/world/2018/08/02/trump-administration-aclu-should-find-deported-parents-not-government/894466002/",
+		"urlToImage": "https://www.gannett-cdn.com/-mm-/cf92e164309333cc19e771e19d8dace03e41dbd0/c=0-238-4692-2889/local/-/media/2018/07/10/USATODAY/USATODAY/636668142224315135-AP-Immigration-Separating-Families-Ruling.jpg?width=3200&height=1680&fit=crop",
+		"publishedAt": "2018-08-02T23:25:00Z"
+	}, {
+		"source": {
+			"id": "cnbc",
+			"name": "CNBC"
+		},
+		"author": "Elizabeth Gurdus",
+		"title": "Cramer Remix: Apple won't be the only company to hit $1 trillion",
+		"description": "Jim Cramer explains what makes Apple’s trillion dollar market cap so meaningful.",
+		"url": "https://www.cnbc.com/2018/08/02/cramer-remix-apple-wont-be-the-only-company-to-hit-1-trillion.html",
+		"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2014/05/05/101642717-20130429-0743-125.1910x1000.jpg",
+		"publishedAt": "2018-08-02T22:59:00Z"
+	}, {
+		"source": {
+			"id": null,
+			"name": "Propublica.org"
+		},
+		"author": "ProPublica",
+		"title": "Worker Charged With Sexually Molesting Eight Children at Immigrant Shelter",
+		"description": "The allegations against the Southwest Key youth care worker are the latest in a series of serious accusations of sexual abuse inside the government’s…",
+		"url": "https://www.propublica.org/article/worker-charged-with-sexually-molesting-eight-children-at-immigrant-shelter",
+		"urlToImage": "https://assets.propublica.org/2017-pp-open-graph-1200x630.jpg",
+		"publishedAt": "2018-08-02T22:55:01Z"
+	}, {
+		"source": {
+			"id": "the-washington-post",
+			"name": "The Washington Post"
+		},
+		"author": null,
+		"title": "Amber Alert issued after girl is abducted from Reagan National Airport",
+		"description": "Authorities are working with Virginia State Police and other agencies to find Jinjing Ma.",
+		"url": "https://www.washingtonpost.com/local/public-safety/amber-alert-issued-after-police-say-girl-abducted-from-reagan-national-airport/2018/08/02/beb2c682-968d-11e8-a679-b09212fb69c2_story.html",
+		"urlToImage": "https://www.washingtonpost.com/resizer/PS6canRXLG1T45cBY6yUeh7_COg=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/IIGBKLUWU4I6RAHBADUA4H67IM.jpg",
+		"publishedAt": "2018-08-02T22:40:24Z"
+	}, {
+		"source": {
+			"id": null,
+			"name": "Espn.com"
+		},
+		"author": null,
+		"title": "FAQ: The latest on Ohio State's Urban Meyer investigation",
+		"description": "A guide to why coach Urban Meyer was placed on administrative leave and who the key players are in the investigation of assistant coach Zach Smith's domestic violence accusations.",
+		"url": "http://www.espn.com/college-football/story/_/id/24265385/ohio-state-faq-know-urban-meyer-zach-smith-investigation",
+		"urlToImage": "http://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2016%2F0824%2Fr118130_2_1296x729_16%2D9.jpg",
+		"publishedAt": "2018-08-02T22:06:00Z"
+	}, {
+		"source": {
+			"id": "the-new-york-times",
+			"name": "The New York Times"
+		},
+		"author": "https://www.nytimes.com/by/coral-davenport",
+		"title": "Trump Administration Unveils Its Plan to Relax Car Pollution Rules",
+		"description": "The proposal would freeze rules requiring cleaner, more efficient cars and unravel one of President Obama’s signature policies to fight global warming.",
+		"url": "https://www.nytimes.com/2018/08/02/climate/trump-auto-emissions-california.html",
+		"urlToImage": "https://static01.nyt.com/images/2018/08/03/climate/03CLI-AUTOEMISSIONS1/03CLI-AUTOEMISSIONS1-facebookJumbo.jpg",
+		"publishedAt": "2018-08-02T21:41:02Z"
+	}, {
+		"source": {
+			"id": "cnn",
+			"name": "CNN"
+		},
+		"author": "Elise Labott, CNN",
+		"title": "Suspected Russian spy caught working inside US embassy in Moscow",
+		"description": "A suspected Russian spy was employed for more than a decade at the US Embassy in Moscow before being fired last year, a senior administration official tells CNN.",
+		"url": "https://www.cnn.com/2018/08/02/politics/russian-spy-us-embassy-moscow/index.html",
+		"urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/180802164723-american-embassy-in-moscow-restricted-super-tease.jpg",
+		"publishedAt": "2018-08-02T21:30:23Z"
+	}, {
+		"source": {
+			"id": "the-new-york-times",
+			"name": "The New York Times"
+		},
+		"author": "http://www.nytimes.com/by/daniel-victor",
+		"title": "'All I Did Was Be Black': Police Are Called on College Student Eating Lunch",
+		"description": "The Smith College student, Oumou Kanoute, had been sitting in a common area when a staff member reported her. The college’s president apologized.",
+		"url": "https://www.nytimes.com/2018/08/02/us/black-smith-college-student-oumou-kanoute.html",
+		"urlToImage": "https://static01.nyt.com/images/2018/08/03/us/03xp-smith/03xp-smith-facebookJumbo.jpg",
+		"publishedAt": "2018-08-02T21:21:25Z"
+	}, {
+		"source": {
+			"id": null,
+			"name": "Whio.com"
+		},
+		"author": null,
+		"title": "Officials: No 'real world' active shooter incident at Wright-Patterson Air Force Base",
+		"description": "Wright-Patterson Air Force Base has given the all clear after reports of an active shooter at the base medical center.",
+		"url": "https://www.whio.com/news/local/police-activity-reported-wpafb-near-medical-center/zbwqtemrZ2Vb1tasmndpyN/",
+		"urlToImage": "https://www.whio.com/rf/image_lowres/Pub/p9/WHIO/2018/08/02/Videos/4453189.vpx",
+		"publishedAt": "2018-08-02T21:04:00Z"
+	}, {
+		"source": {
+			"id": "the-washington-post",
+			"name": "The Washington Post"
+		},
+		"author": "http://www.facebook.com/rachel.elise.weiner, http://www.facebook.com/matt.zapotosky",
+		"title": "Paul Manafort trial Day 3: Bookkeeper testifies about overseas accounts, cash flow problems, unpaid bills",
+		"description": "Updates from the courtroom where Trump's former campaign chairman is facing bank and tax fraud charges.",
+		"url": "https://www.washingtonpost.com/news/local/wp/2018/08/02/paul-manafort-trial-day-3-live-updates/",
+		"urlToImage": "https://www.washingtonpost.com/resizer/hA692OXW2YSnxXbo1DMNCpTPeME=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/BTCLC7QA3Q325NCFNJYXRMO2VQ.jpg",
+		"publishedAt": "2018-08-02T19:07:58Z"
+	}, {
+		"source": {
+			"id": null,
+			"name": "Npr.org"
+		},
+		"author": "Amy Held",
+		"title": "'20-Year-Old Grudge' May Have Led To Killing Of Houston Cardiologist, Police Say",
+		"description": "Mark Hausknecht was shot and killed by the son of a patient who died during surgery decades earlier, according to police. The suspect, identified as Joseph James Pappas, remains at large.",
+		"url": "https://www.npr.org/2018/08/02/634875729/20-year-old-grudge-may-have-led-to-killing-of-houston-cardiologist-police-say",
+		"urlToImage": "https://media.npr.org/assets/img/2018/08/02/ap_18213751113717_wide-b3c91b34587d8e167ef13d15992e64e70c220284.jpg?s=1400",
+		"publishedAt": "2018-08-02T18:34:05Z"
+	}, {
+		"source": {
+			"id": "fox-news",
+			"name": "Fox News"
+		},
+		"author": "Brian Flood",
+		"title": "New York Times stands by new tech writer Sarah Jeong after racist tweets surface",
+		"description": "The New York Times is under fire for adding Sarah Jeong to its editorial board as derogatory tweets sent from her Twitter account have been unearthed.",
+		"url": "http://www.foxnews.com/entertainment/2018/08/02/new-york-times-stands-by-new-tech-writer-sarah-jeong-after-racist-tweets-surface.html",
+		"urlToImage": "http://a57.foxnews.com/images.foxnews.com/content/fox-news/entertainment/2018/08/02/new-york-times-stands-by-new-tech-writer-sarah-jeong-after-racist-tweets-surface/_jcr_content/par/featured_image/media-0.img.jpg/0/0/1533229320863.jpg?ve=1",
+		"publishedAt": "2018-08-02T16:43:04Z"
+	}]
+}
