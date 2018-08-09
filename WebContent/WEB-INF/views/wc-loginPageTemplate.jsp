@@ -7,7 +7,8 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
 <link
 	href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
 	rel="stylesheet" id="bootstrap-css">
@@ -22,6 +23,15 @@
 .panel h2{ color:#444444; font-size:18px; margin:0 0 8px 0;}
 .panel p { color:#777777; font-size:14px; margin-bottom:30px; line-height:24px;}
 .login-form .form-control {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 38px;
+  line-height: 50px;
+}
+
+.login-form .aadhaar-form-control {
   background: #f7f7f7 none repeat scroll 0 0;
   border: 1px solid #d4d4d4;
   border-radius: 4px;
@@ -52,7 +62,7 @@
   color: #ffffff;
   font-size: 14px;
   width: 100%;
-  height: 36px;
+  height: 45px;
   line-height: 50px;
   padding: 0;
   margin-bottom: -12px;
@@ -63,7 +73,7 @@
   color: #ffffff;
   font-size: 14px;
   width: 100%;
-  height: 36px;
+  height: 45px;
   line-height: 50px;
   padding: 0;
   margin-top: -12px;
