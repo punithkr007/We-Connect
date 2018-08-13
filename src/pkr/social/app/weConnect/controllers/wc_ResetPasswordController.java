@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class wc_ResetPasswordController {
 
 	@RequestMapping(value="/resetPassword.do",method=RequestMethod.GET)
-	public String wc_NavigateToResetPassword(){
+	public String _NavigateToResetPassword(){
 		
 		return "wc.ResetPassword";
 	}

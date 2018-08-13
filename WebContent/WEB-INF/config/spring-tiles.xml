@@ -33,5 +33,12 @@
 		<put-attribute name="title" value="We-Connect" />
 		<!-- <put-attribute name="body" value="" /> -->
 	</definition>
+	
+	
+	
+	<definition name="wc.Sql.Exception" extends="wc.LandingpageTemplate">
+		<put-attribute name="title" value="We-Connect Login" />
+		<put-attribute name="body" value="/WEB-INF/ErrorResponses/wc_SQL_Exception.jsp" />
+	</definition>
 
 </tiles-definitions>

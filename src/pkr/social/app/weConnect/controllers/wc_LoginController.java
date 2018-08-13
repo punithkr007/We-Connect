@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class wc_LoginController {
 
 	@RequestMapping(value="/wc-login.do",method=RequestMethod.POST)
-	public String wc_HomePage(){
+	public String _HomePage(){
 	return "wc.Dashboard";	
 	}
 	

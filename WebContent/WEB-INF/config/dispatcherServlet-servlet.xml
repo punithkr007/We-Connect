@@ -65,4 +65,14 @@
 		</property>
 	</bean>
 
+
+	<!-- Hibernate Configuration -->
+	<bean id="_sessionFactory"
+		class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+		<property name="configLocations" value="classpath:resources/hibernate.cfg.xml"></property>
+	</bean>
+
+
+
+
 </beans>
