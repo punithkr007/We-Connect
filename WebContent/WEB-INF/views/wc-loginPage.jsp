@@ -37,20 +37,25 @@
 				<div class="panel">
 					<h2>Step-1 Registration</h2>
 				</div>
+				<hr>
 				<form id="register-basic"
 					action="${pageContext.request.contextPath}/wc-Register.do"
 					method="post">
 					<div class="form-group">
-						<input type="email" class="form-control" id="inputEmail"
-							placeholder="Email Address">
+						<input type="text" class="form-control" id="phoneNumber"
+							name="phoneNumber" placeholder="Phone Number">
 					</div>
 					<div class="form-group">
-						<input type="password" class="form-control" id="inputPassword"
-							placeholder="Password">
+						<input type="email" class="form-control" id="registerEmail"
+							name="registerEmail" placeholder="Email Address">
 					</div>
 					<div class="form-group">
-						<input type="password" class="form-control"
-							id="confirm-inputPassword" placeholder="Confirm Password">
+						<input type="password" class="form-control" id="registerPassword"
+							name="registerPassword" placeholder="Password">
+					</div>
+					<div class="form-group">
+						<input type="password" class="form-control" name="confirmPassword"
+							id="confirmPassword" placeholder="Confirm Password">
 					</div>
 					<button type="button" class="btn btn-primary" id="register-Aadhar">Submit</button>
 					<br>
@@ -69,9 +74,7 @@
 				<div class="panel">
 					<h2>Step-2 Registration</h2>
 				</div>
-				<form id="register-aadhar"
-					action="${pageContext.request.contextPath}/wc-Register.do"
-					method="post">
+				<form id="register-aadhar-form" enctype="multipart/form-data">
 					<div class="form-group">
 						<h5>
 							Please Upload your Aadhaar Card.&nbsp;<i
@@ -81,7 +84,7 @@
 					</div>
 					<hr>
 					<div class="form-group">
-						<input type="file" class="">
+						<input type="file" class="" id="aadhar-card" name="aadharCard">
 					</div>
 					<hr>
 					<br>
@@ -174,6 +177,9 @@
 		</div>
 	</div>
 	<script type="text/javascript">
+		
+	</script>
+	<script type="text/javascript">
 		$(document)
 				.ready(
 						function() {
@@ -188,13 +194,9 @@
 							$(".login").click(function() {
 								loadLoginPage();
 							});
-							$("#register-Aadhar")
-									.click(
-											function() {
-												responsiveVoice
-														.speak("Please Upload your aadhar Card to complete your Registration. It is just to avoid Duplicate or Fake accounts. All your data are encrypted and safe.");
-												loadAadhaarUploadPage();
-											});
+							$("#register-Aadhar").click(function() {
+								loadAadhaarUploadPage();
+							});
 							$("#register-Otp").click(function() {
 								loadOtpVerificationPage();
 							});
@@ -206,9 +208,7 @@
 															.speak("Please Upload your aadhar Card to complete your Registration. It is just to avoid Duplicate or Fake accounts. All your data are encrypted and safe.");
 												}
 											});
-
 						});
-
 		$("#forgot-password-link").click(function() {
 			loadResetPasswordPage();
 		});
@@ -232,18 +232,26 @@
 			$("#forgot-password").hide();
 		}
 		function loadAadhaarUploadPage() {
-			$("#Register-aadhar-container").show();
-			$("#login-container").hide();
-			$("#Register-container").hide();
-			$("#Register-Otp-container").hide();
-			$("#forgot-password").hide();
+			if (validateBasicRegistration()) {
+				responsiveVoice
+						.speak("Please Upload your aadhar Card to complete your Registration. It is just to avoid Duplicate or Fake accounts. All your data are encrypted and safe.");
+				$("#Register-aadhar-container").show();
+				$("#login-container").hide();
+				$("#Register-container").hide();
+				$("#Register-Otp-container").hide();
+				$("#forgot-password").hide();
+			} else {
+				responsiveVoice
+						.speak("Hey, Please fill all the details before submitting the step one registration.");
+			}
 		}
 		function loadOtpVerificationPage() {
-			$("#Register-Otp-container").show();
-			$("#Register-aadhar-container").hide();
-			$("#login-container").hide();
-			$("#Register-container").hide();
-			$("#forgot-password").hide();
+			if (validateAadhaarUpload()) {
+				verifyValidAadharUser();
+			} else {
+				responsiveVoice
+						.speak("sorry, You need to upload your aadhar card to complete your registration,  It is just to avoid Duplicate or Fake accounts. All your data are encrypted and safe.");
+			}
 		}
 		function loadResetPasswordPage() {
 			$("#forgot-password").show();
@@ -251,6 +259,56 @@
 			$("#Register-aadhar-container").hide();
 			$("#login-container").hide();
 			$("#Register-container").hide();
+		}
+		
+		function loadOTPContainer(){
+			responsiveVoice
+			.speak("We have sent an OTP to your E-mail, please check it, it is needed to complete your Registration.");
+			$("#Register-Otp-container").show();
+			$("#Register-aadhar-container").hide();
+			$("#login-container").hide();
+			$("#Register-container").hide();
+			$("#forgot-password").hide();
+		}
+		
+	</script>
+	<script type="text/javascript">
+		function validateBasicRegistration() {
+			var phoneNumber = $("#phoneNumber").val();
+			var email = $("#registerEmail").val();
+			var registrationPassword = $("#registerPassword").val();
+			var confirmPasssword = $("#confirmPassword").val();
+			if (phoneNumber && email && registrationPassword
+					&& confirmPasssword)
+				return true;
+			else
+				return false;
+		}
+		function validateAadhaarUpload() {
+			var aadharCard = $("#aadhar-card").val();
+			if (aadharCard)
+				return true;
+			else
+				return false;
+		}
+		function verifyValidAadharUser() {
+			var requestUrl = "/verifyValidAadharUser.do";
+			var request = new XMLHttpRequest();
+			request.open("POST", "${pageContext.request.contextPath}"
+					+ requestUrl);
+			request.send(new FormData($("#register-aadhar-form")[0]));
+			request.onreadystatechange = function() {
+				if (request.readyState == XMLHttpRequest.DONE) {
+					var isValid = (request.responseText).toString();
+					if (isValid === "true"){
+						loadOTPContainer();
+					}
+					else {
+						alert("DUPLICATE USER");
+					}
+					return value;
+				} 
+			}
 		}
 	</script>
 </body>

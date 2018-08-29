@@ -10,5 +10,4 @@ public class wc_LandingPageController {
 	public String _LandingPageHandler() {
 		return "wc.Landingpage";
 	}
-	
 }
